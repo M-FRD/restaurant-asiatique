@@ -206,3 +206,27 @@ h1 {
   left: 50%;
   transform: translate(-50% , -50%);
 }
+
+@media screen and (max-width : 850px) {
+ .cursor {
+   display: none;
+ }
+ .body {
+   cursor: auto;
+ }
+}
+@media screen and (max-width : 550px) {
+  :root {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width : 450px) {
+  h1 {
+    font-size: 8rem;
+  }
+}
+@media screen and (max-width : 250px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
