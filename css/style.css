@@ -214,6 +214,10 @@ h1 {
  .body {
    cursor: auto;
  }
+   h1 {
+  font-size: 8rem;
+  left: 10%;
+}
 }
 @media screen and (max-width : 550px) {
   :root {
